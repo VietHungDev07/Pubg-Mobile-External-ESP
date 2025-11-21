@@ -6,7 +6,7 @@ This project demonstrates how to build a clean external cheat using memory readi
 > ⚠️ **This project is strictly for educational and research purposes.  
 > We do NOT encourage cheating in online games.**
 
-> #📌Features
+#📌Features
 > - **External** — No injection, no DLL, no modification of game files  
 > - **Auto-find GWorld & GName using Pattern Scan**  
 > - **Entity ESP**  
@@ -21,14 +21,14 @@ This project demonstrates how to build a clean external cheat using memory readi
 > - **Pattern-based engine scanning** (works even if offsets change)
 > - <img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/58304765-519f-42c4-b37c-c1c7b5cb0445" />
 
-> ## 🛠 Requirements
+# 🛠 Requirements
 > - Windows 10 / 11  
 > - Visual Studio 2022  
 > - C++17 support  
 > - Gameloop 4.x (aow_exe.exe)  
 > - Administrator privileges
 
-## 🚀 How to Build
+# 🚀 How to Build
 > 1. Install **Visual Studio 2022**  
 > 2. Open the solution `ImGuiExternal.sln`  
 > 3. Select:  
@@ -40,7 +40,7 @@ This project demonstrates how to build a clean external cheat using memory readi
 >
 > ✔ It's a normal C++ project — no special configuration needed.
 
-> # 🔧 How the Project Updates Itself (NO SDK NEEDED)
+# 🔧 How the Project Updates Itself (NO SDK NEEDED)
 > PUBG Mobile updates frequently.  
 > Normally you need SDK → GWorld → GName → Offsets → Rebuild.
 >
