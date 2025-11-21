@@ -6,7 +6,7 @@ This project demonstrates how to build a clean external cheat using memory readi
 > ⚠️ **This project is strictly for educational and research purposes.  
 > We do NOT encourage cheating in online games.**
 
-#📌Features
+# 📌Features
 > - **External** — No injection, no DLL, no modification of game files  
 > - **Auto-find GWorld & GName using Pattern Scan**  
 > - **Entity ESP**  
