@@ -1,7 +1,5 @@
 # Pubg-Mobile-External-ESP
 
-## 🏷️ Tags
-> PUBG Mobile ESP, External ESP, PUBG Cheat, Memory Reading, Aimbot, Offsets, Pattern Scan, GNames, GWrold, SDK Free, Game Hacking, C++ Cheat
 
 
 An educational External ESP project for PUBG Mobile (Gameloop).
@@ -66,6 +64,10 @@ This project demonstrates how to build a clean external cheat using memory readi
 >    - Component offsets  
 >
 > ✔ When PUBG updates, you only need to change **patterns** → NOT rebuild SDK.
+
+## 🏷️ Tags
+> PUBG Mobile ESP, External ESP, PUBG Cheat, Memory Reading, Aimbot, Offsets, Pattern Scan, GNames, GWrold, SDK Free, Game Hacking, C++ Cheat
+
 
 <!--
 Keywords:
