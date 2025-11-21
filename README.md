@@ -25,7 +25,7 @@ This project demonstrates how to build a clean external cheat using memory readi
 > - Windows 10 / 11  
 > - Visual Studio 2022  
 > - C++17 support  
-> - Gameloop 4.x (aow_exe.exe)  
+> - Gameloop 7.1 (aow_exe.exe)  
 > - Administrator privileges
 
 # 🚀 How to Build
