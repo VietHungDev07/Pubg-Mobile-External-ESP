@@ -14,6 +14,7 @@ namespace Offset
 
 	const DWORD Gnames = 0xA3E2004;
 	//gNames Signature: 00 60 F7 2F 00 F0 24 57 00 A0 39 57 00 00 C9 79 00 E0 53 7A 00 90 35 7D 00 A0 25 7D 00 D0 EC 7D
+	//gNames: 8b 72 ? 89 75 ? 8b 55 ? 8d 62
 
 	const DWORD VIEWMATRIX = 0xA7B96B0;// Nah No Need Update this , this method is shit
 
@@ -23,11 +24,16 @@ namespace Offset
 	const DWORD EntityList = 0x70; // never change
 	const DWORD EntityCount = EntityList + 4; // never change	
 	const DWORD ActorsClass = 0x384; // never change
-	const DWORD isDead = 0xa6c; //bool bDead;
 	const DWORD NetDriver = 0x24; // never change
 	const DWORD ServerConnection = 0x64;//NetConnection* ServerConnection; //Never Change
 	const DWORD PlayerController = 0x20;//PlayerController* PlayerController; // never change
 
+	const DWORD isDead = 0xa6c; //bool bDead;
+	//SIGNATURE
+	//isDead: 0f b6 ba ? ? ? ? f7 c7 ? ? ? ? 66 0f ba e0 ? 9f 89 5d
+	//isDead: 0f b6 97 ? ? ? ? f7 c2 ? ? ? ? 66 0f ba e0 ? 9f 0f 85 ? ? ? ? 8b 57 ? 8b 8a
+	//isDead: 0f b6 be ? ? ? ? f7 c7 ? ? ? ? 66 0f ba e0 ? 9f 89 5d
+	//isDead: 0f b6 b7 ? ? ? ? f7 c6 ? ? ? ? 66 0f ba e0 ? 9f 0f 85 ? ? ? ? 8d 97
 
 	const DWORD AcknowledgedPawn = 0x3a8;//Pawn* AcknowledgedPawn; // Change
 	//SIGNATURE

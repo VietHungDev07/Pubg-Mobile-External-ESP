@@ -576,9 +576,7 @@ void Render() {
 	{
 	
 
-		ImGui::Begin(u8"The Blade Dancerr", &ShowMenu,
-			ImGuiWindowFlags_NoResize  |
-			ImGuiWindowFlags_NoCollapse);
+		ImGui::Begin(u8"The Blade Dancerr", &ShowMenu);
 
 		ImGui::Checkbox("Enable ESP", &Setting::ESP);
 		if (Setting::ESP)
