@@ -33,9 +33,9 @@ This project demonstrates how to build a clean external cheat using memory readi
 > 1. Install **Visual Studio 2022**  
 > 2. Open the solution `ImGuiExternal.sln`  
 > 3. Select:  
->    ```
+>    `
 >    Release | x64
->    ```  
+>    `
 > 4. Press **Build → Build Solution**  
 > 5. Run the compiled `.exe` **as Administrator**
 >
