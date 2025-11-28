@@ -69,6 +69,8 @@ namespace Offset
 	//SIGNATURE:
 	//TeamId: 8b 92 ? ? ? ? 8b b3 ? ? ? ? 89 75 ? 39 f2
 	//TeamId: 8b b3 ? ? ? ? 89 75 ? 39 f2 9f 0f 90 ? 74
+  	//TeamId: 8b b9 ? ? ? ? 8b b3
+	//TeamId: 8b b3 ? ? ? ? 89 75 ? 39 f7 9f 0f 90 ? 74
 	
 	const DWORD Mesh = 0x398; // ?
 	//SIGNATURE:
